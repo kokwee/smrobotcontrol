@@ -1,22 +1,11 @@
 // Add your code here
 
-/**
- * Custom blocks
- */
 //% weight=100 color=#0fbc11 icon=""
 namespace SMRobotControl {
     
     //% block="print Something with $s"
     export function printSomething(s: string): void {
         basic.showString(s);
-    }
-
-    //% block="set custome pin1 $speed1 and pin3 $speed2"
-    export function setPins(speed1: number, speed2: number): void {
-        pins.analogWritePin(AnalogPin.P0, speed1);
-        pins.analogWritePin(AnalogPin.P1, 0);
-        pins.analogWritePin(AnalogPin.P2, speed2);
-        pins.analogWritePin(AnalogPin.P3, 0);
     }
 
     //% block="Steer Left $input"
