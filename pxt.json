@@ -2,18 +2,13 @@
     "name": "SMRobotControl",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
-        "main.ts",
         "README.md",
         "SMRobotControl.ts"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": [],
     "targetVersions": {
         "target": "6.0.18",
         "targetId": "microbit"
