@@ -2,7 +2,8 @@
     "name": "SMRobotControl",
     "description": "",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "bluetooth": "*"
     },
     "files": [
         "README.md",
