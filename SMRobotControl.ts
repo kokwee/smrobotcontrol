@@ -55,4 +55,12 @@ namespace SMRobotControl {
         pins.analogWritePin(AnalogPin.P2, 0);
         pins.analogWritePin(AnalogPin.P3, 0-speed);
     }
+
+    //% block="Brake"
+    export function brake(): void {
+        pins.analogWritePin(AnalogPin.P0, 1023);
+        pins.analogWritePin(AnalogPin.P1, 1023);
+        pins.analogWritePin(AnalogPin.P2, 1023);
+        pins.analogWritePin(AnalogPin.P3, 1023);
+    }
 }
